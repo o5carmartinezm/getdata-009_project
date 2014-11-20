@@ -7,10 +7,11 @@ The purpose of this project is to collect, work with, and clean a data set. The 
 
 You should load the script in R:
 
-source("run_analysis.R")
+<pre>source("run_analysis.R")</pre>
 
-Assumptions: The scpritp and the data should be in the same directory. That directory must have the following structure:
+* Assumptions: The scpritp and the data should be in the same directory. That directory must have the following structure:
 
+<pre>
 activity_labels.txt
 features_info.txt
 features.txt
@@ -22,6 +23,7 @@ train
   subject_train.txt
   X_train.txt
   y_train.txt
+</pre>
 
 Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement. 
