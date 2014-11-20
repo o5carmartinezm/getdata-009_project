@@ -14,7 +14,7 @@ The script will do the following:
 * Name the activities in the data set
 * Labels the data set with descriptive variable names. 
 * Creates a tidy data set with the average of each variable for each activity and each subject.
-* The final result is the file "nombre fichero" places in the same directory
+* The final result is the file "result_run_analysis.txt" places in the same directory
 
 * Also you can find in this reprository the codebook with the description of variables in the output file.
 
