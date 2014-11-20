@@ -9,7 +9,7 @@ You should load the script in R:
 
 <pre>source("run_analysis.R")</pre>
 
-* Assumptions: The scpritp and the data should be in the same directory. That directory must have the following structure:
+**Assumptions:** The scpritp and the data should be in the same directory. That directory must have the following structure:
 
 <pre>
 activity_labels.txt
@@ -25,9 +25,9 @@ train
   y_train.txt
 </pre>
 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Name the activities in the data set
-Labels the data set with descriptive variable names. 
-Creates a tidy data set with the average of each variable for each activity and each subject.
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Name the activities in the data set
+* Labels the data set with descriptive variable names. 
+* Creates a tidy data set with the average of each variable for each activity and each subject.
 
