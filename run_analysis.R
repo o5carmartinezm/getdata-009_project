@@ -1,3 +1,14 @@
+#  run_analysis.R
+#    
+#  The scirpt will Merge the training and the test sets of the data collected from
+#  the accelerometers from the Samsung Galaxy S smartphone to create one data set.
+#
+#  Extracts only the measurements on the mean and standard deviation for each measurement.
+#  Name the activities in the data set
+#  Labels the data set with descriptive variable names.
+#  Creates a tidy data set with the average of each variable for each activity and each subject.
+#  The final result is the file "result_run_analysis.txt" places in the same directory
+
 library(dplyr)
 
 activity_labels <- read.csv("activity_labels.txt", sep = "", header = FALSE)
