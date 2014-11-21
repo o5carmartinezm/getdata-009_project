@@ -2,7 +2,7 @@ Feature Selection
 =================
 * There are a big set of data collected from the accelerometers from the Samsung Galaxy S smartphone, by subjects doing different activities. I pretend to summarize this data.
 
-* Raw data is the features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. All the variables and the description of the experiment are descrives in the following [[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip|link]].
+* Raw data is the features selected for the database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. All the variables and the description of the experiment are descrived in the following zip[link]https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.
 
 The source data for the project is:
 
