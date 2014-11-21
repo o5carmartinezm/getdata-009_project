@@ -1,21 +1,22 @@
 Feature Selection 
 =================
-There are a big set of data collected from the accelerometers from the Samsung Galaxy S smartphone, should be cleaned and summarice in a tidy data.
+* There are a big set of data collected from the accelerometers from the Samsung Galaxy S smartphone. Collected by sbujects doing different activities.
 
-Raw data is the features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+* Raw data is the features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The raw data will be cleaned and summarice in a tidy data.All the variables and de description of the experiment are descirves in the following link.
 
 The source data for the project is:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Inside are all the variables of the raw data descrived.
 
-Processed data:
+
+* Processed data:
 The data has been joined and selected only the measurement of the mean and standard deviation for each measurement.
 The activity was changed from (1:6) value to the description of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING)
 And get the mean of the selected data grouped by subjects and activity.
 
-The file created contains the following list of variables:
+* The file created contains the following list of variables:
+<PRE>
 activity
 subjects
 tbodyacc.mean.x
@@ -84,3 +85,4 @@ fbodybodygyromag.mean
 fbodybodygyromag.std
 fbodybodygyrojerkmag.mean
 fbodybodygyrojerkmag.std
+</PRE>
