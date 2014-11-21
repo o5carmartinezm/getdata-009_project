@@ -2,16 +2,10 @@ Feature Selection
 =================
 * There are a big set of data collected from the accelerometers from the Samsung Galaxy S smartphone, by subjects doing different activities. I pretend to summarize this data.
 
-* Raw data is the features selected for the database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. All the variables and the description of the experiment are descrived in the following zip[link]https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.
-
-The source data for the project is:
-
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-
+* Raw data is the features selected for the database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. All the variables and the description of the experiment are descrived in the following zip [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset).
 
 * Processed data:
-The data has been joined and selected only the measurement of the mean and standard deviation for each measurement.
+The data (test and train) has been joined, and selected only the measurement of the mean and standard deviation for each measurement.
 The activity was changed from (1:6) value to the description of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING)
 And get the mean of the selected data grouped by subjects and activity.
 
