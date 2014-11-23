@@ -38,6 +38,8 @@ selectedData <- select(allData, columns)
 # Rename the features name taking off special characters
 colNames <- gsub("[()]","",features[columns,2])
 colNames <- tolower(make.names(colNames, unique = TRUE, allow_= TRUE))
+colNames <- gsub("\\.","", colNames)
+
 #colNames <- sub("BodyBody", "newname", colNames)
 names(selectedData) <- colNames
 
